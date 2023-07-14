@@ -423,6 +423,7 @@ window.addEventListener("DOMContentLoaded", () => {
     restart() {
       this.Player.restart();
       this.hatchlings = [];
+      this.enemies = []
       this.mouse = {
         x: this.width * 0.5,
         y: 200,
